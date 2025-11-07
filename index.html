@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formation JavaScript - 10 Exercices Pratiques</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen py-12 px-4">
+  <div class="max-w-6xl mx-auto">
+
+    <!-- En-tête -->
+    <header class="text-center mb-12">
+      <h1 class="text-5xl font-bold text-gray-800 mb-4">
+        Formation JavaScript
+      </h1>
+      <p class="text-xl text-gray-600 mb-2">
+        10 Exercices Pratiques Progressifs
+      </p>
+      <p class="text-gray-500">
+        HTML + TailwindCSS + JavaScript Pur
+      </p>
+    </header>
+
+    <!-- Section d'explication -->
+    <section class="bg-white rounded-2xl shadow-lg p-8 mb-10">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">À propos de cette formation</h2>
+      <div class="space-y-4 text-gray-700">
+        <p>
+          Cette série d'exercices est conçue pour les <strong>apprenants débutants et intermédiaires</strong>
+          en développement web. Chaque exercice se concentre sur des compétences JavaScript essentielles.
+        </p>
+        <div class="bg-blue-50 p-4 rounded-lg">
+          <h3 class="font-semibold text-blue-900 mb-2">Comment utiliser ces exercices :</h3>
+          <ol class="list-decimal list-inside space-y-2 text-blue-800">
+            <li>Cliquez sur un exercice ci-dessous pour l'ouvrir</li>
+            <li>Lisez attentivement l'énoncé et les objectifs</li>
+            <li>Ouvrez le fichier <code class="bg-white px-2 py-1 rounded">script.js</code> dans votre éditeur de code</li>
+            <li>Codez votre solution dans la zone prévue</li>
+            <li>Testez votre code en rafraîchissant la page</li>
+            <li>Tentez les bonus pour aller plus loin !</li>
+          </ol>
+        </div>
+        <div class="flex items-start gap-3 bg-green-50 p-4 rounded-lg">
+          <span class="text-2xl">💡</span>
+          <div>
+            <h3 class="font-semibold text-green-900 mb-1">Conseil :</h3>
+            <p class="text-green-800">
+              Les exercices sont classés par ordre de difficulté croissante.
+              Commencez par l'exercice 1 et progressez à votre rythme !
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grille des exercices -->
+    <section>
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Les Exercices</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- Exercice 1 -->
+        <a href="exercices/ex01/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-blue-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full">Débutant</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">🔢</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 1</h3>
+          <p class="text-gray-600 mb-3">Compteur</p>
+          <p class="text-sm text-gray-500">Manipulation DOM, événements click</p>
+        </a>
+
+        <!-- Exercice 2 -->
+        <a href="exercices/ex02/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-purple-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full">Débutant</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">🎨</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 2</h3>
+          <p class="text-gray-600 mb-3">Générateur de Couleurs</p>
+          <p class="text-sm text-gray-500">Math.random(), modification CSS dynamique</p>
+        </a>
+
+        <!-- Exercice 3 -->
+        <a href="exercices/ex03/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-green-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded-full">Débutant</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">👁️</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 3</h3>
+          <p class="text-gray-600 mb-3">Afficher/Masquer</p>
+          <p class="text-sm text-gray-500">classList, gestion de visibilité</p>
+        </a>
+
+        <!-- Exercice 4 -->
+        <a href="exercices/ex04/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-orange-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-orange-100 text-orange-800 text-xs font-semibold px-3 py-1 rounded-full">Intermédiaire</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">✅</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 4</h3>
+          <p class="text-gray-600 mb-3">Todo List</p>
+          <p class="text-sm text-gray-500">createElement, appendChild, remove</p>
+        </a>
+
+        <!-- Exercice 5 -->
+        <a href="exercices/ex05/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-red-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-red-100 text-red-800 text-xs font-semibold px-3 py-1 rounded-full">Intermédiaire</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">🧮</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 5</h3>
+          <p class="text-gray-600 mb-3">Calculatrice</p>
+          <p class="text-sm text-gray-500">Opérateurs, validation, gestion d'erreurs</p>
+        </a>
+
+        <!-- Exercice 6 -->
+        <a href="exercices/ex06/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-indigo-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-3 py-1 rounded-full">Intermédiaire</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">❓</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 6</h3>
+          <p class="text-gray-600 mb-3">Quiz Interactif</p>
+          <p class="text-sm text-gray-500">Tableaux d'objets, boucles, état de jeu</p>
+        </a>
+
+        <!-- Exercice 7 -->
+        <a href="exercices/ex07/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-pink-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-pink-100 text-pink-800 text-xs font-semibold px-3 py-1 rounded-full">Intermédiaire</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">⏰</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 7</h3>
+          <p class="text-gray-600 mb-3">Horloge Numérique</p>
+          <p class="text-sm text-gray-500">setInterval, Date, formatage</p>
+        </a>
+
+        <!-- Exercice 8 -->
+        <a href="exercices/ex08/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-teal-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-teal-100 text-teal-800 text-xs font-semibold px-3 py-1 rounded-full">Avancé</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">🔐</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 8</h3>
+          <p class="text-gray-600 mb-3">Générateur de Mots de Passe</p>
+          <p class="text-sm text-gray-500">Boucles, manipulation de chaînes, aléatoire</p>
+        </a>
+
+        <!-- Exercice 9 -->
+        <a href="exercices/ex09/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-yellow-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-3 py-1 rounded-full">Avancé</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">🖼️</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 9</h3>
+          <p class="text-gray-600 mb-3">Galerie avec Filtres</p>
+          <p class="text-sm text-gray-500">filter(), map(), génération dynamique</p>
+        </a>
+
+        <!-- Exercice 10 -->
+        <a href="exercices/ex10/index.html"
+           class="bg-white rounded-xl shadow-md hover:shadow-2xl transition-all duration-300 p-6 border-2 border-transparent hover:border-rose-500 group">
+          <div class="flex items-center justify-between mb-3">
+            <span class="bg-rose-100 text-rose-800 text-xs font-semibold px-3 py-1 rounded-full">Avancé</span>
+            <span class="text-3xl group-hover:scale-110 transition-transform">🎮</span>
+          </div>
+          <h3 class="text-xl font-bold text-gray-800 mb-2">Exercice 10</h3>
+          <p class="text-gray-600 mb-3">Jeu du Pendu</p>
+          <p class="text-sm text-gray-500">Logique de jeu, état complexe, split/join</p>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center mt-12 text-gray-600">
+      <p class="text-sm">
+        Formation JavaScript - Exercices sans API externe |
+        <span class="font-semibold">HTML + TailwindCSS + JS Pur</span>
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
